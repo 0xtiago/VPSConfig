@@ -13,6 +13,7 @@ YELLOW='\e[33m'
 NC='\e[0m' # No Color
 #========================================
 
+# Root or Sudoer verifying.
 if [[ $(id -u) != 0 ]]; then
     echo -e "\n[!] Install.sh need to run as root or sudoer"
     exit 0
