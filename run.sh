@@ -4,7 +4,7 @@
 
 apt update 
 sudo apt upgrade -y
-sudo apt install python3-pip tmux -y
+sudo apt install python3-pip jq tmux -y
 
 #Install Golang
 cd /tmp
