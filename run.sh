@@ -26,7 +26,7 @@ source ~/.bashrc
 #=============================================================================================
 echo -e "${RED}[+] Installing all requirements${NC}"
 #Installing packages
-sudo apt-get update && sudo apt-get install gzip zip git python3-pip jq tmux snap -y
+sudo apt-get update && sudo apt-get install net-tools htop vim gzip zip git python3-pip jq tmux snap -y
 
 #Installing newer GO
 apt purge golang
