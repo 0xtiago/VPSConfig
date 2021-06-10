@@ -62,7 +62,7 @@ cd /tmp
 wget https://github.com/findomain/findomain/releases/latest/download/findomain-linux
 mv findomain-linux findomain
 mv findomain /usr/local/bin
-chmod +x /usr/bin/findomain
+chmod +x /usr/local/bin/findomain
 
 #Install chaos-client
 echo -e "${RED}[+] Installing chaos client${NC}"
